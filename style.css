@@ -208,6 +208,9 @@ a.not_blur_item {
 
 .bank_item {
     text-align: center;
-    margin: 80px 32px;
-    
+    margin: 150px 32px;
+}
+.it-center {
+    width: 120px;
+    height: 60px;
 }
