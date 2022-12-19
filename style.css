@@ -13,6 +13,9 @@ body {
     width: 100%;
     height: 100%;
 }
+a {
+    text-decoration: none;
+}
 .container {
     color: #AFAFAF;
     margin: 20px 50px;
@@ -175,8 +178,7 @@ a.not_blur_item {
     line-height: 25px;
     margin-right: 20px;
 }
-
-.block_main h3 {
+h3 {
     font-size: 36px;
     color: #ffffff;
 }
@@ -208,9 +210,114 @@ a.not_blur_item {
 
 .bank_item {
     text-align: center;
-    margin: 150px 32px;
+    margin: 120px 32px 70px;
 }
 .it-center {
     width: 120px;
     height: 60px;
+}
+
+.services_wrap {
+    display: flex;
+}
+.services {
+    width: 240vh;
+}
+.services_main, .service_full {
+   
+    display: flex;
+    align-items: center;
+}
+.box {
+    margin-right: 30px;
+    width: 20px;
+    height: 86px;
+    border-radius: 4px;
+    background-color:#FFF;
+}
+
+.service_img {
+    position: relative;
+    margin-right: 24px;
+    margin-bottom: 50px;
+}
+.service_img_grad {
+    position: absolute;
+    left: 50px;
+}
+
+.service_img_grad2 {
+    position: absolute;
+    left: 468px;
+    z-index: 1;
+}
+.serv_header, .serv_header2 {
+    position: absolute;
+    width: 250px;
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 35px;
+    z-index: 2;
+    margin-top: 300px;
+}
+
+.serv_header {
+    left: 70px;
+}
+
+.serv_header2 {
+    left: 490px;
+}
+
+.service_full span {
+    padding-left: 20px;
+    font-size: 24px;
+    line-height: 28px;
+    color:#FFF;
+}
+.realtor {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.realtor_box {
+    display: flex;
+    
+}
+.realter_img {
+    margin: 0 22px 45px 0;
+}
+.realter_name {
+    font-weight: bold;
+    color: #FFF;
+    font-size: 24px;
+    margin-top: 10px;
+}
+.realter_name div {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+}
+.realtor_text {
+    font-size: 28px;
+    width: 480px;
+    margin-right: 50px;
+    line-height: 36px;
+    display: flex;
+    align-items: center
+}
+
+.realtor_btn {
+    width: 300px;
+    height: 60px;
+    border: 2px solid #FFFFFF;
+    border-radius: 15px;
+    background-color:#30302E;
+    margin-top: 70px;
+    
+}
+.realtor_btn a {
+    font-size: 24px;
+    line-height: 28px;
+    color:#FFF;
 }
