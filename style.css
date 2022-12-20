@@ -83,9 +83,9 @@ a {
 
 .main_img_grad {
     position: absolute;
-    width: 90%;
-    height: 500px;
-    top: 136px;
+    width: 94%;
+    margin-top: 2px;
+    top: 140px;
     left: 50px;
     z-index: 1;
 }
@@ -249,8 +249,7 @@ h3 {
     position: absolute;
     width: 250px;
     color: #FFFFFF;
-    font-weight: 300;
-    font-size: 36px;
+    font-size: 34px;
     line-height: 35px;
     z-index: 2;
     margin-top: 300px;
@@ -293,10 +292,10 @@ h3 {
     line-height: 28px;
 }
 .realtor_text {
-    font-size: 28px;
+    font-size: 24px;
     width: 480px;
     color: #FFF;
-    margin-right: 40px;
+    margin: 0 0 50px 0px;
     line-height: 36px;
     display: flex;
     align-items: center
@@ -308,7 +307,7 @@ h3 {
     border: 2px solid #FFFFFF;
     border-radius: 15px;
     background-color:#30302E;
-    margin-top: 70px;
+    margin-top: 50px;
 }
 .btn a {
     font-size: 24px;
@@ -316,18 +315,19 @@ h3 {
     color:#FFF;
 }
 .services_wrap {
-    margin-top: 130px;
+    margin-top: 100px;
 }
 .strategy_main {
     display: flex;
     align-items:center;
     justify-content: center;
-    margin-left: 80px;
+    margin-left: 50px;
 }
 
 .strategy_img {
     margin-right: 24px;
     margin-bottom: 50px;
+    width: 40%;
 }
 
 .img_down {
@@ -335,7 +335,7 @@ h3 {
 }
 
 .strategy_items {
-    font-size: 26px;
+    font-size: 24px;
     color: #FFFFFF;
     display: inline-flex;
 }
@@ -344,12 +344,59 @@ ul {
 }
 
 .str_img {
-    padding: 50px 40px 0 75px;
-    margin-right: 25px;
+    padding: 36px 20px 0 10px;
+    margin-right: 40px;
     float:left;
 }
 .str_text{
-    padding-top: 40px;
+    padding-top: 30px;
     width: 420px;
     float: right;
 }
+
+.sell-wrap {
+    display: flex;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.sell_img, .sell_end_img {
+    width: 90%;
+}
+.sell_img {
+    position: relative;
+}
+.sell_header {
+    position: absolute;
+    left: 100px;
+    font-size: 62px;
+    font-weight: 700;
+    color:#ffffff;
+    margin-top: -330px;
+}
+.sell_text {
+    position: absolute;
+    left: 100px;
+    margin-top: -170px;
+    color:#ffffff;
+    line-height: 34px;
+}
+.sell_middle {
+    position: absolute;
+    left: 820px;
+    margin-top: 140px;
+    text-align: center;
+    
+}
+.sell_middle_img {
+    padding: 10px;
+}
+.sell_middle p {
+    font-size: 24px;
+    color: #fff;
+
+}
+.sell_middle .btn {
+    margin: 10px;
+}
+
