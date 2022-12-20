@@ -328,6 +328,7 @@ h3 {
     margin-right: 24px;
     margin-bottom: 50px;
     width: 40%;
+    
 }
 
 .img_down {
@@ -368,15 +369,15 @@ ul {
 }
 .sell_header {
     position: absolute;
-    left: 100px;
-    font-size: 62px;
+    left: 140px;
+    font-size: 68px;
     font-weight: 700;
     color:#ffffff;
-    margin-top: -330px;
+    margin-top: -350px;
 }
 .sell_text {
     position: absolute;
-    left: 100px;
+    left: 140px;
     margin-top: -170px;
     color:#ffffff;
     line-height: 34px;
@@ -392,11 +393,11 @@ ul {
     padding: 10px;
 }
 .sell_middle p {
-    font-size: 24px;
+    font-size: 26px;
     color: #fff;
 
 }
 .sell_middle .btn {
-    margin: 10px;
+    margin: 8px;
 }
 
