@@ -218,7 +218,7 @@ h3 {
 .services {
     width: 240vh;
 }
-.services_main, .service_full, .services_wrap {  
+.services_main, .service_full, .services_wrap, .exp_main {  
     display: flex;
     align-items: center;
 }
@@ -327,8 +327,7 @@ h3 {
 .strategy_img {
     margin-right: 24px;
     margin-bottom: 50px;
-    width: 40%;
-    
+    width: 40%;   
 }
 
 .img_down {
@@ -349,13 +348,13 @@ ul {
     margin-right: 40px;
     float:left;
 }
-.str_text{
+.str_text {
     padding-top: 30px;
     width: 420px;
     float: right;
 }
 
-.sell-wrap {
+.sell-wrap, .exp_wrap {
     display: flex;
     margin-top: 150px;
     margin-bottom: 50px;
@@ -401,3 +400,10 @@ ul {
     margin: 8px;
 }
 
+.exp_text {
+    font-size: 24px;
+    margin-right: 100px;
+    color: #FFF;
+    line-height: 35px;
+    
+}
