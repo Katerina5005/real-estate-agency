@@ -1,272 +1,186 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css"> </head>
+
 <body>
-    <header class="container">
-        <nav class="menu">
-            <div class="menu_logo">
-                <img src="img/logo.png" alt="logo" class="img_logo">
-                <p class="logo_name">города</p>
-            </div>
-            
-            <p class="menu_name">Агентство <br> недвижимости</p>
-            <ul class="menu_nav">
-               <a href="#" class="menu_nav__item active"> <li >Услуги</li> </a>
-                <a href="#" class="menu_nav__item"> <li>Стоимость</li> </a>
-                <a href="#" class="menu_nav__item"> <li>Отзывы</li> </a>
-                <a href="#" class="menu_nav__item"> <li>Блог</li> </a>
-                <a href="#" class="menu_nav__item"> <li>Контакты</li> </a>
-                <a href="#" class="menu_nav__item active">Связаться</a>
-            </ul>
-            
-        </nav>
-    </header>
-
-    <main class="container">
-        <img src="img/main-img.jpg" alt="pic" class="main_img">
-        <img src="img/gradient.png" alt="gradient" class="main_img_grad">
-
-        <p class="main_header">Поможем выгодно <br> продать или сдать <br> вашу квартиру
-        </p>
-
-        <div class="blur">
-            <div class="bg_blur"></div>
-            <ul class="blur_container">
-                <li class="blur_item">Ваше имя </li>
-                <li class="blur_item">Номер телефона</li>
-                <li class="blur_item">Время</li>   
-            </ul>
-            <a href="#" class="blur_item not_blur_item"> Заказать <br> звонок</a>
-            <ul class="blur_container">
-                <a href="#" class="blur_item"><li class="full">Заполнить</li> </a>
-                <a href="#" class="blur_item"> <li class="full">Заполнить</li> </a>
-                <a href="#" class="blur_item"> <li class="full">Заполнить</li> </a>
-            </ul>
-        </div>
-    </main>
-
-    <section>
-        <div class="container">
-            <div class="bloks">
-            <article class="block_main">
-                <h3>Преимущества</h3>
-                <p>Наши специалисты с большим опытом работы готовы решить задачи любого уровня сложности. Профессионализм и опыт - наши главные показатели.</p>
-            </article>
-            
-                <div class="block">
-                    <img src="img/pic1.png" alt="pic1" class="block_img">
-                    <div class="block_header">2000 сделок</div>
-                    <div class="block_text">Общее кол-во сделок за 15 лет</div> 
-                </div>
-                <div class="block">
-                    <img src="img/pic2.png" alt="pic2" class="block_img">
-                    <div class="block_header">500 продаж</div>
-                    <div class="block_text">Проданных обьектов</div>
-                </div>
-                <div class="block">
-                    <img src="img/pic3.png" alt="pic3" class="block_img">
-                    <div class="block_header">15 лет</div>
-                    <div class="block_text">Мы работаем с 2006 года</div>
-                </div>
-                <div class="block">
-                    <img src="img/pic4.png" alt="pic4" class="block_img">
-                    <div class="block_header">96% </div>
-                    <div class="block_text">Довольных клиентов</div>
-                </div>
-            </div>
-            <div class="banks">
-                <img class="bank_item" src="img/png sber.png" alt="">
-                <img class="bank_item" src="img/png vtb.png" alt="">
-                <img class="bank_item" src="img/png invest.png" alt="">
-                <img class="bank_item" src="img/png gazprom.png" alt="">
-                <img class="bank_item" src="img/png rosselhoz.png" alt="">
-                <img class="bank_item" src="img/png tinkoff.png" alt="">
-                <img class="bank_item it-center" src="img/png absolut.png" alt="">
-                <img class="bank_item" src="img/png akbars.png" alt="">
-            </div>
-        </div>
-        
-    </section>
-
-    <section>
-        <div class="container">
-            <div class="services_wrap">
-                <div class="services">
-                    <div class="services_main">
-                        <div class="box"></div>
-                        <h3>Выберите тип услуги, <br> Которая Вас интересует</h3>
-                    </div>
-                    
-                    <div class="services_img">
-                        <a href="#">
-                            <img class="service_img" src="img/serv1.png" alt="">
+	<header class="container">
+		<nav class="menu">
+			<div class="menu_logo"> <img src="img/logo.png" alt="logo" class="img_logo">
+				<p class="logo_name">города</p>
+			</div>
+			<p class="menu_name">Агентство <br> недвижимости</p>
+			<ul class="menu_nav">
+				<li><a href="#services" class="menu_nav__item active">Услуги</a></li>
+				<li><a href="#selling" class="menu_nav__item">Стоимость</a></li>
+				<li><a href="#" class="menu_nav__item">Отзывы</a></li>
+				<li><a href="#" class="menu_nav__item">Блог</a> </li>
+				<li><a href="#" class="menu_nav__item">Контакты</a> </li>
+				<li><a href="#" class="menu_nav__item active last">Связаться</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main class="container"> <img src="img/main-img.jpg" alt="pic" class="main_img"> <img src="img/gradient.png" alt="gradient" class="main_img_grad">
+		<p class="main_header">Поможем выгодно <br> продать или сдать <br> вашу квартиру </p>
+		<div class="blur">
+			<div class="bg_blur"></div>
+			<ul class="blur_container">
+				<li class="blur_item">Ваше имя </li>
+				<li class="blur_item">Номер телефона</li>
+				<li class="blur_item">Время</li>
+			</ul> <a href="#" class="blur_item not_blur_item active"> Заказать <br> звонок</a>
+			<ul class="blur_container">
+				<li class="full"><a href="#" class="blur_item">Заполнить</a></li>
+				<li class="full"><a href="#" class="blur_item">Заполнить</a></li>
+				<li class="full"><a href="#" class="blur_item">Заполнить</a></li>
+			</ul>
+		</div>
+	</main>
+	<section class="block1">
+		<div class="container">
+			<div class="bloks">
+				<article class="block_main">
+					<h3>Преимущества</h3>
+					<p>Наши специалисты с большим опытом работы готовы решить задачи любого уровня сложности. Профессионализм и опыт - наши главные показатели.</p>
+				</article>
+				<div class="block"> <img src="img/pic1.png" alt="pic1" class="block_img">
+					<div class="block_header">2000 сделок</div>
+					<div class="block_text">Общее кол-во сделок за 15 лет</div>
+				</div>
+				<div class="block"> <img src="img/pic2.png" alt="pic2" class="block_img">
+					<div class="block_header">500 продаж</div>
+					<div class="block_text">Проданных обьектов</div>
+				</div>
+				<div class="block"> <img src="img/pic3.png" alt="pic3" class="block_img">
+					<div class="block_header">15 лет</div>
+					<div class="block_text">Мы работаем с 2006 года</div>
+				</div>
+				<div class="block"> <img src="img/pic4.png" alt="pic4" class="block_img">
+					<div class="block_header">96% </div>
+					<div class="block_text">Довольных клиентов</div>
+				</div>
+			</div>
+			<div class="banks"> <img class="bank_item" src="img/sber.png" alt="bank"> <img class="bank_item" src="img/vtb.png" alt="bank"> <img class="bank_item" src="img/invest.png" alt="bank"> <img class="bank_item" src="img/gazprom.png" alt="bank"> <img class="bank_item" src="img/rosselhoz.png" alt="bank"> <img class="bank_item" src="img/tinkoff.png" alt="bank"> <img class="bank_item it-center" src="img/absolut.png" alt="bank"> <img class="bank_item" src="img/akbars.png" alt="bank"> </div>
+		</div>
+	</section>
+	<section id="services">
+		<div class="container">
+			<div class="services_wrap">
+				<div class="services">
+					<div class="services_main">
+						<div class="box"></div>
+						<h3>Выберите тип услуги, <br> Которая Вас интересует</h3>
+					</div>
+					<div class="services_img"> <a href="#">
+                            <img class="service_img" src="img/serv1.png" alt="pic">
                             <span class="serv_header">Продажа недвидимости</span>
-                        </a>
-                        <a href="#">
-                            <img src="img/serv_shadow.png" alt="" class="service_img_grad2">
-                        <img class="service_img" src="img/serv2.png" alt="">
+                        </a> <a href="#">
+                            <img src="img/serv_shadow.png" alt="shadow" class="service_img_grad2">
+                        <img class="service_img" src="img/serv2.png" alt="serv">
                         <span class="serv_header2">Сдача в аренду</span>
-                        <img src="img/serv_shadow.png" alt="" class="service_img_grad">
-                        </a>
-                        
-                    </div>
-                    <div class="service_full">
-                        <a href="#" class="service_arrow">
-                            <img src="img/arrow.png" alt="arrow"></a>
-                        
-                        <span>Посмотреть полный <br>
-                            список услуг</span>
-                    </div>
-
-                </div>
-
-                <div class="realtor">
-                    <div class="realtor_box">
-                        <img src="img/png rieltor.png" alt="photo" class="realter_img">
-                        <div class="realter_name">Алексей Ширяев
-                            <div>Риелтор</div>
-                        </div> 
-                    </div>
-                    
-                    <p class="realtor_text">Чтобы начать, выберите тип услуги, которая Вам необходима. Мы поможем детально разобрать Вашу задачу, а после решим ее.</p>
-                    <p class="realtor_text">Кстати, формирование стоимости абсолютно прозрачное, скачайте прайс-лист на наши услуги или свяжитесь с нами.</p>
-
-                    
-                <button class="btn">
-                    <a href="#">Цены на наши услуги</a></button>   
-                </div>
-                
-            </div>
-            
-        </div>
-    </section>
-    <section>
-        <div class="container">
-            <div class="services_wrap">
-                <div class="strategy">
-                    <img src="img/house1.png" alt="house1" class="strategy_img img_down">
-                    <img src="img/house2.png" alt="house2" class="strategy_img ">
-                </div>
-                <div class="strategy_box">
-                    <div class="strategy_main">
-                        <div class="box"></div>
-                            <h3>Наша стратегия приводит <br>
-                                к быстрой продаже</h3>
-                    </div>
-                    <div class="strategy_items">
-                        <ul>
-                            <li><img src="icons/icon1.png" alt="" class="str_img">
-                                <span class="str_text">Оцениваем стоимость <br>
+                        <img src="img/serv_shadow.png" alt="shadow" class="service_img_grad">
+                        </a> </div>
+					<div class="service_full"> <a href="#" class="service_arrow">
+                            <img src="img/arrow.png" alt="arrow"></a> <span>Посмотреть полный <br>
+                            список услуг</span> </div>
+				</div>
+				<div class="realtor">
+					<div class="realtor_box"> <img src="img/rieltor.png" alt="photo" class="realter_img">
+						<div class="realter_name">Алексей Ширяев
+							<div>Риелтор</div>
+						</div>
+					</div>
+					<p class="realtor_text">Чтобы начать, выберите тип услуги, которая Вам необходима. Мы поможем детально разобрать Вашу задачу, а после решим ее.</p>
+					<p class="realtor_text">Кстати, формирование стоимости абсолютно прозрачное, скачайте прайс-лист на наши услуги или свяжитесь с нами.</p> <button class="btn">Цены на наши услуги</button> </div>
+			</div>
+		</div>
+	</section>
+	<section class="block3">
+		<div class="container">
+			<div class="services_wrap">
+				<div class="strategy"> <img src="img/house1.png" alt="house1" class="strategy_img img_down"> <img src="img/house2.png" alt="house2" class="strategy_img "> </div>
+				<div class="strategy_box">
+					<div class="strategy_main">
+						<div class="box"></div>
+						<h3>Наша стратегия приводит <br> к быстрой продаже</h3>
+					</div>
+					<div class="strategy_items">
+						<ul>
+							<li><img src="icons/icon1.png" alt="icon" class="str_img"> <span class="str_text">Оцениваем стоимость <br>
                                     вашего объекта</span></li>
-                            <li><img src="icons/icon2.png" alt="" class="str_img">
-                                <span class="str_text">Организовываем <br>
+							<li><img src="icons/icon2.png" alt="icon" class="str_img"> <span class="str_text">Организовываем <br>
                                     фотосессию</span></li>
-                            <li><img src="icons/icon3.png" alt="" class="str_img">
-                                <span class="str_text">Проводим активную <br>
+							<li><img src="icons/icon3.png" alt="icon" class="str_img"> <span class="str_text">Проводим активную <br>
                                     рекламную кампанию</span></li>
-                            <li><img src="icons/icon4.png" alt="" class="str_img">
-                                <span class="str_text">Находим потенциальных <br>
+							<li><img src="icons/icon4.png" alt="icon" class="str_img"> <span class="str_text">Находим потенциальных <br>
                                     покупателей</span></li>
-                            <li><img src="icons/icon5.png" alt="" class="str_img">
-                                <span class="str_text">Собираем и оформляем <br>
+							<li><img src="icons/icon5.png" alt="icon" class="str_img"> <span class="str_text">Собираем и оформляем <br>
                                     документы для продажи</span></li>
-                            <li><img src="icons/icon6.png" alt="" class="str_img">
-                                <span class="str_text">Регистрируем право <br>
+							<li><img src="icons/icon6.png" alt="icon" class="str_img"> <span class="str_text">Регистрируем право <br>
                                     собственности</span></li>
-                        </ul>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-    </section>
-
-    <section>
-        <div class="container">
-            <div class="sell-wrap">
-                <div class="sell">
-                    <img src="img/selling.png" alt="selling" class="sell_img">
-                <p class="sell_header">Решили продать <br>
-                    недвижимость?</p>
-                <p class="sell_text">Ответьте на несколько вопросов, чтобы <br>
-                    узнать стоимость Вашего обьекта</p>
-                </div>
-
-                <div class="sell_middle">
-                    <img src="img/svg - chel.png" alt="chel" class="sell_middle_img">
-                    <p >Мы поможем Вам рассчитать <br>
-                        стоимость!</p>
-                    
-                        <button class="btn">
-                            <a href="#">Проконсультироваться</a></button>
-                    
-                </div>
-                <div class="sell_end">
-                    <img src="img/selling2.png" alt="selling" class="sell_end_img">
-                </div>
-                
-
-            </div>
-        </div>
-    </section>
-    <section>
-        <div class="container">
-            <div class="exp_wrap">
-                <div>
-                    <div class="exp_main">
-                        <div class="box"></div>
-                        <h3>Мы каждый день стремимся <br>
-                        стать лучшей версией самих себя</h3>
-                    </div>
-                    
-                    <p class="exp_text">Мы ориентированы на полное сопровождение клиентов по проведению сделок покупки, продаж и аренды недвижимости.</p>
-                        <p class="exp_text">
-                        Накопленный опыт специалистов нацелен на обеспечение вашей юридической безопасности
-                        и достижения успешного проведения сделки: мы оцениваем квартиры и формируем объявления, собираем документы и проводим рекламные компании по продвижению вашего объекта на торговых площадках и в СМИ. Профессиональный подход команды к оказанию риэлторской услуги отражается в довольных отзывах клиентов.</p>
-                </div>
-                <div>
-                    <img src="img/exp.png" alt="lesha" class="exp_img">
-                </div>
-            </div>
-        </div>
-    </section>
-    <section>
-        <div class="container">
-            <div class="spec_wrap">
-                <div class="spec_main">
-                    <h3>Специалисты</h3>
-                    <p class="spec_text1">Высочайшая квалификация и большой практический опыт наших экспертов позволяют нам решать задачи любой сложности.</p>
-                </div>
-                <div class="spec_realtor">
-                    <div class="realtor_box">
-                        <img src="img/alexey.png" alt="photo" class="realter_img">
-                        <div class="realter_name">Алексей
-                            <div>Риелтор</div>
-                        </div> 
-                        <img src="img/stars.png" alt="stars" class="stars">
-                    </div>
-                    <p class="spec_text">Мне нравится моя работа и я получаю большое удовольствие. В моей специальности  для меня главным является помогать людям.</p>
-                </div>
-                <div class="spec_realtor">
-                    <div class="realtor_box">
-                        <img src="img/julya.png" alt="photo" class="realter_img">
-                        <div class="realter_name">Юлия
-                            <div>Риелтор</div>
-                        </div> 
-                        <img src="img/stars.png" alt="stars" class="stars">
-                    </div>
-                    <p class="spec_text">Работаю в недвижимости с 2006 года. Сдала более 1000 квартир. Поменяю старую квартиру на новую без комиссии.</p>
-                </div>
-                
-            </div>
-
-        </div>
-    </section>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="selling">
+		<div class="container">
+			<div class="sell-wrap">
+				<div class="sell"> <img src="img/selling.png" alt="selling" class="sell_img">
+					<p class="sell_header">Решили продать <br> недвижимость?</p>
+					<p class="sell_text">Ответьте на несколько вопросов, чтобы <br> узнать стоимость Вашего обьекта</p>
+				</div>
+				<div class="sell_middle"> <img src="img/chel.png" alt="chel" class="sell_middle_img">
+					<p>Мы поможем Вам рассчитать <br> стоимость!</p> <button class="btn">Проконсультироваться</button> </div>
+				<div class="sell_end"> <img src="img/selling2.png" alt="selling" class="sell_end_img"> </div>
+			</div>
+		</div>
+	</section>
+	<section class="block5">
+		<div class="container">
+			<div class="exp_wrap">
+				<div>
+					<div class="exp_main">
+						<div class="box"></div>
+						<h3>Мы каждый день стремимся <br> стать лучшей версией самих себя</h3>
+					</div>
+					<p class="exp_text">Мы ориентированы на полное сопровождение клиентов по проведению сделок покупки, продаж и аренды недвижимости.</p>
+					<p class="exp_text"> Накопленный опыт специалистов нацелен на обеспечение вашей юридической безопасности и достижения успешного проведения сделки: мы оцениваем квартиры и формируем объявления, собираем документы и проводим рекламные компании по продвижению вашего объекта на торговых площадках и в СМИ. Профессиональный подход команды к оказанию риэлторской услуги отражается в довольных отзывах клиентов.</p>
+				</div>
+				<div> <img src="img/exp.png" alt="lesha" class="exp_img"> </div>
+			</div>
+		</div>
+	</section>
+	<section class="block6">
+		<div class="container">
+			<div class="spec_wrap">
+				<div class="spec_main">
+					<h3>Специалисты</h3>
+					<p class="spec_text1">Высочайшая квалификация и большой практический опыт наших экспертов позволяют нам решать задачи любой сложности.</p>
+				</div>
+				<div class="spec_realtor">
+					<div class="realtor_box"> <img src="img/alexey.png" alt="photo" class="realter_img">
+						<div class="realter_name">Алексей
+							<div>Риелтор</div>
+						</div> <img src="img/stars.png" alt="stars" class="stars"> </div>
+					<p class="spec_text">Мне нравится моя работа и я получаю большое удовольствие. В моей специальности для меня главным является помогать людям.</p>
+				</div>
+				<div class="spec_realtor">
+					<div class="realtor_box"> <img src="img/julya.png" alt="photo" class="realter_img">
+						<div class="realter_name">Юлия
+							<div>Риелтор</div>
+						</div> <img src="img/stars.png" alt="stars" class="stars"> </div>
+					<p class="spec_text">Работаю в недвижимости с 2006 года. Сдала более 1000 квартир. Поменяю старую квартиру на новую без комиссии.</p>
+				</div>
+			</div>
+		</div>
+	</section>
 </body>
+
 </html>
