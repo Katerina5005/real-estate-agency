@@ -354,7 +354,7 @@ ul {
     float: right;
 }
 
-.sell-wrap, .exp_wrap {
+.sell-wrap, .exp_wrap, .spec_wrap {
     display: flex;
     margin-top: 150px;
     margin-bottom: 50px;
@@ -404,6 +404,30 @@ ul {
     font-size: 24px;
     margin-right: 100px;
     color: #FFF;
-    line-height: 35px;
-    
+    line-height: 35px; 
+}
+
+
+.spec_main {
+    margin-right: 80px;
+}
+.spec_text1 {
+    width: 376px; 
+    line-height: 28px;
+}
+.spec_text {
+    color: #FFF;
+    line-height: 28px;
+}
+.spec_realtor {
+    width: 500px;
+}
+.realter_img {
+   margin-top: 15px;
+}
+
+.stars {
+    margin: 25px;
+    width: 136px;
+    height: 24px;
 }
