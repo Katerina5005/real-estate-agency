@@ -310,13 +310,13 @@ ul {
     display: flex;
     flex-wrap: wrap;
     margin-top: 150px;
-    margin-bottom: 50px;
 }
 .sell_img, .sell_end_img {
     width: 90%;
-}
-.sell_img {
     position: relative;
+}
+.sell_end_img {
+   width: 384px;
 }
 .sell_header {
     position: absolute;
@@ -333,7 +333,7 @@ ul {
 }
 .sell_middle {
     position: absolute;
-    left: 820px;
+    left: 824px;
     margin-top: 140px;
     text-align: center;
 }
@@ -346,10 +346,13 @@ ul {
 .sell_middle .btn {
     margin: 8px;
 }
+.exp {
+    width: 53%;
+}
 .exp_text {
     font-size: 24px;
-    margin-right: 100px;
     line-height: 35px;
+    margin-right: 80px;
 }
 .spec_main {
     margin-right: 80px;
@@ -363,7 +366,7 @@ ul {
     line-height: 28px;
 }
 .spec_realtor {
-    width: 500px;
+    width: 480px;
 }
 .realter_img {
     margin-top: 15px;
