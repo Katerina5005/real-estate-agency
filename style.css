@@ -306,7 +306,7 @@ ul {
     width: 420px;
     float: right;
 }
-.sell-wrap, .exp_wrap, .spec_wrap {
+.sell-wrap, .exp_wrap, .spec_wrap, .reviews_wrap {
     display: flex;
     flex-wrap: wrap;
     margin-top: 150px;
@@ -375,4 +375,41 @@ ul {
     margin: 25px;
     width: 136px;
     height: 24px;
+}
+.main_review {
+    display: flex;
+    width: 72%;
+}
+.reviews_type {
+    margin-left: 60px;
+    width: 160%; 
+}
+.realter_type {
+    font-weight: bold;
+    font-size: 24px;
+}
+.realtor_review div, .rev_stars{
+    padding-top: 10px;
+}
+.rewiew_box {
+    display: flex;
+}
+.realtor_review {
+    margin-left: 52px;  
+}
+.review_text_box {
+    display: flex;  
+    justify-content: space-between;
+}
+.review_text {
+    width: 48%;
+    line-height: 26px; 
+}
+.insta {
+    text-align: end;
+    align-self:center;
+}
+.insta_qr, .insta_img {
+    padding: 5px 0;
+    width: 70%;
 }
