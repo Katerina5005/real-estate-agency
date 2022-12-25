@@ -376,13 +376,14 @@ ul {
     width: 136px;
     height: 24px;
 }
+
 .main_review {
     display: flex;
-    width: 72%;
+    width: 76%;
+    margin-top: 20px;
 }
 .reviews_type {
-    margin-left: 60px;
-    width: 160%; 
+    margin-left: 60px; 
 }
 .realter_type {
     font-weight: bold;
@@ -394,6 +395,9 @@ ul {
 .rewiew_box {
     display: flex;
 }
+.img_review {
+    width: 22%;
+}
 .realtor_review {
     margin-left: 52px;  
 }
@@ -403,13 +407,17 @@ ul {
 }
 .review_text {
     width: 48%;
-    line-height: 26px; 
+    line-height: 26px;
+    padding-right: 26px; 
 }
 .insta {
-    text-align: end;
+    text-align: center;
     align-self:center;
 }
 .insta_qr, .insta_img {
     padding: 5px 0;
-    width: 70%;
+}
+.review_text1 {
+    width: 98%;
+    line-height: 26px; 
 }
