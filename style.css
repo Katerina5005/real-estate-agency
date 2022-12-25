@@ -421,3 +421,23 @@ ul {
     width: 98%;
     line-height: 26px; 
 }
+.team_middle {
+    position: absolute;
+    left: 422px;
+    margin-top: 140px;
+    text-align: center;
+}
+.team_middle p {
+    font-size: 26px;
+}
+.team2 {
+    position: relative;
+    margin-left: 45px;
+}
+.team_end_img {
+    width: 90%;
+}
+.team3 {
+    position: absolute;
+    right: 0;
+}
