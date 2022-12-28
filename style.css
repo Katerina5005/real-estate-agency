@@ -441,3 +441,85 @@ ul {
     position: absolute;
     right: 0;
 }
+.shadow{
+    box-shadow: 0 24px 50px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+}
+
+.contacts_form {
+    margin: 115px 50px 50px 100px;
+    width: 40%;
+
+}
+.form_title {
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.form_text {
+    margin: 40px auto;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.submit-btn {
+    background-color: #525252;
+	color: #FFF;		
+	border:0;
+	border-radius: 15px;
+	display: block;
+	margin: 28px auto; 
+	padding: 15px 45px;
+	font-size: 24px;
+	cursor: pointer;
+	width: 100%;
+}
+.submit-btn:hover {
+    transition: all .5s ease;
+	background-color: rgba(22, 22, 22, 0.8);
+}
+.input {
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    display: block;
+    width: 83%;
+    padding: 10px 15px;
+    border-bottom: 1px solid #adacac;
+    height: 90px; 
+}
+.input_icon {
+    position: relative;
+}
+.input_icon::before {
+    content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 40px; 
+      margin: auto 0;
+      width: 25px;
+      height: 25px;
+      background-size: cover;
+}
+
+.input_name {
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.input_tel {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.input_icon .input  {
+    padding-left: 85px;
+}
+.input_icon_name::before {
+    background-image: url('icons/name.png');
+}
+
+.input_icon_tel::before {
+    background-image: url('icons/tel.png'); 
+}
+
